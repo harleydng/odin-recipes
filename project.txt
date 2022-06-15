@@ -1,0 +1,2 @@
+Project: Recipes
+First Odin's project using basic HTML (index.html/lasagna.html/h1/unordered list/ordered list/anchor tag/img)
