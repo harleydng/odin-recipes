@@ -1,21 +1,51 @@
-.center {
-    display: flex;
-    justify-content: center;
-  }
 
-h1, h3 {
+.header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 10px;
+
+}
+
+.header > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.food-container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+}
+
+p {
     text-align: center;
 }
 
-h3 {
-    margin-bottom: 50px;
+.food-container > p {
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 img {
+    width: 380px;
     border-radius: 20px;
+
 }
 
 img:hover {
-    transform: scale(1.1);
-    transition: 1s;
+    transition: 0.8s;
+    transform: scale(1.06);
+    opacity: 0.5;
+}
+
+.textappear {
+    position: absolute;
+    opacity: 0;
+}
+
+img:hover .textappear {
+    opacity: 1;
 }
