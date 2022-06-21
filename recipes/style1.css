@@ -1,18 +1,33 @@
+.header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 10px;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header > p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
 .in-container {
     display: flex;
     gap: 70px;
     justify-content: center;
 }
 
-.middle > figcaption {
-    text-align: center;
-    max-width: 380px;
-}
 
-.middle {
+.image {
     max-width: 400px;
     line-height: 30px;
     margin-top: 75px;
+    height: auto;
 }
 
 .step {
@@ -20,7 +35,7 @@
     line-height: 30px;
     background-color: antiquewhite;
     padding: 20px;
-    height: 537px;
+    height: auto;
     margin-top: 75px;
     border-radius: 20px;
 }
@@ -30,7 +45,7 @@
     line-height: 30px;
     background-color: antiquewhite;
     padding: 20px;
-    height: 537px;
+    height: auto;
     margin-top: 75px;
     border-radius: 20px;
 }
