@@ -1,3 +1,6 @@
 Project: Recipes
 First Odin's project using basic HTML (index.html/lasagna.html/h1/unordered list/ordered list/anchor tag/img)
 Date: 6/15/2022
+
+Date 6/21/2022
+First Odin's project using not really basic HTML anymore ._.
